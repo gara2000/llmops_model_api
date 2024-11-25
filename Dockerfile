@@ -5,7 +5,7 @@ FROM python:3.9-slim
 WORKDIR /app
 
 # Copy model and inference script
-COPY model.joblib inference.py /app/
+COPY model.joblib app.py /app/
 
 # Install dependencies
 RUN pip install --no-cache-dir joblib scikit-learn numpy flask
