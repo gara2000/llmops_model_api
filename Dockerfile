@@ -14,4 +14,4 @@ RUN pip install --no-cache-dir joblib scikit-learn numpy flask
 EXPOSE 8080
 
 # Run inference script using Flask
-CMD ["python3", "inference.py"]
+CMD ["python3", "app.py"]
